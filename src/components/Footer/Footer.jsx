@@ -58,12 +58,19 @@ const Footer = () => {
           </li>
           <li className="contact-info-flex">
             Phone :{" "}
-            <a
+            {/* <a
               target="_blank"
               href="https://api.whatsapp.com/send?phone=8801317089432"
               className="icon-flex phone-icon"
             >
               +8801317089432
+            </a> */}
+            <a
+              target="_blank"
+              href="tel:+6281218878469"
+              className="icon-flex phone-icon"
+            >
+              +6281218878469
             </a>
           </li>
         </ul>
